@@ -1,6 +1,8 @@
+package week1;
+
 import java.util.Scanner;
 
-public class t6{
+public class task6 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

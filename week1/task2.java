@@ -1,5 +1,7 @@
-public class t2 {
-    public static void main(String[] args) {
+package week1;
+
+public class task2 {
+     public static void main(String[] args) {
 
         String name = "Anushka Singh";
         int age = 20;
@@ -19,3 +21,4 @@ public class t2 {
         System.out.println("Is Student : " + isStudent);
     }
 }
+
