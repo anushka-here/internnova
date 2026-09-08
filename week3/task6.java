@@ -3,7 +3,7 @@ package week3;
 public class task6 {
     
     // Encapsulation
-class BankAccount {
+static class BankAccount {
 
     private long accountNumber;
     private String accountHolderName;
@@ -47,7 +47,7 @@ class BankAccount {
 }
 
 // Abstraction
-abstract class Account {
+static abstract class Account {
 
     // Abstract method
     abstract void calculateInterest();
@@ -59,7 +59,7 @@ abstract class Account {
 }
 
 // Child class
-class SavingsAccount extends Account {
+static class SavingsAccount extends Account {
 
     @Override
     void calculateInterest() {
@@ -67,7 +67,7 @@ class SavingsAccount extends Account {
     }
 }
 
-public class BankingSystem {
+static class BankingSystem {
 
     public static void main(String[] args) {
 
